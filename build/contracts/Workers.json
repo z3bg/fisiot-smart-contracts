@@ -1,0 +1,184 @@
+{
+  "contractName": "Workers",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "manageWorkers",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.4.26+commit.4563c3fc\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[],\"name\":\"manageWorkers\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/mnt/UbiWhere-Test/contracts/Workers.sol\":\"Workers\"},\"evmVersion\":\"byzantium\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/mnt/UbiWhere-Test/contracts/Workers.sol\":{\"keccak256\":\"0x5fb627768e799177b23919624fe45ffcbd9f012469eb04e5901a3fcc79cdfd31\",\"urls\":[\"bzzr://f8c96ce54d4041c35a7309d0c7e56d5b04b1a3ed234251db5984d8cbdbd9f3ee\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b5060868061001e6000396000f300608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063a83dbd38146044575b600080fd5b348015604f57600080fd5b5060566058565b005b5600a165627a7a7230582010bd04847eed6e3728c4596a9dd4fa3b03d4c81769df2468eeb6e14c5d37b3290029",
+  "deployedBytecode": "0x608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063a83dbd38146044575b600080fd5b348015604f57600080fd5b5060566058565b005b5600a165627a7a7230582010bd04847eed6e3728c4596a9dd4fa3b03d4c81769df2468eeb6e14c5d37b3290029",
+  "sourceMap": "25:57:2:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:57:2;;;;;;;",
+  "deployedSourceMap": "25:57:2:-;;;;;;;;;;;;;;;;;;;;;;;;48:32;;8:9:-1;5:2;;;30:1;27;20:12;5:2;48:32:2;;;;;;;:::o",
+  "source": "pragma solidity ^0.4.0;\n\ncontract Workers {\n    function manageWorkers(){\n\n    }\n}\n",
+  "sourcePath": "/mnt/UbiWhere-Test/contracts/Workers.sol",
+  "ast": {
+    "absolutePath": "/mnt/UbiWhere-Test/contracts/Workers.sol",
+    "exportedSymbols": {
+      "Workers": [
+        151
+      ]
+    },
+    "id": 152,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 146,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 151,
+        "linearizedBaseContracts": [
+          151
+        ],
+        "name": "Workers",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 149,
+              "nodeType": "Block",
+              "src": "72:8:2",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 150,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "manageWorkers",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 147,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "70:2:2"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 148,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "72:0:2"
+            },
+            "scope": 151,
+            "src": "48:32:2",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 152,
+        "src": "25:57:2"
+      }
+    ],
+    "src": "0:83:2"
+  },
+  "legacyAST": {
+    "absolutePath": "/mnt/UbiWhere-Test/contracts/Workers.sol",
+    "exportedSymbols": {
+      "Workers": [
+        151
+      ]
+    },
+    "id": 152,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 146,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:2"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 151,
+        "linearizedBaseContracts": [
+          151
+        ],
+        "name": "Workers",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 149,
+              "nodeType": "Block",
+              "src": "72:8:2",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 150,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "manageWorkers",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 147,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "70:2:2"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 148,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "72:0:2"
+            },
+            "scope": 151,
+            "src": "48:32:2",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 152,
+        "src": "25:57:2"
+      }
+    ],
+    "src": "0:83:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.26+commit.4563c3fc.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.2.0",
+  "updatedAt": "2020-06-04T06:21:18.542Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
